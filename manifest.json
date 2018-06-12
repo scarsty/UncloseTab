@@ -1,0 +1,20 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "myicon.png",
+      "default_title": "Unclose Tab!"
+   },
+   "description": "This extension will add a button which can reopen the recent closed tab by just one click.",
+   "icons": {
+      "128": "myicon.png",
+      "48": "myicon48.png"
+   },
+   "name": "Unclose Tab",
+   "options_page": "option.html",
+   "permissions": [ "tabs" ],
+   "version": "0.1.4.1",
+   "author": "SunTY",
+   "description": "替换字体的中文部分为雅黑",
+   "manifest_version": 2,
+   "name": "Unclose Tab",
+}
