@@ -1,5 +1,7 @@
 {
-   "background_page": "background.html",
+   "background": {
+    "scripts": [ "background.js" ]
+    },
    "browser_action": {
       "default_icon": "myicon.png",
       "default_title": "Unclose Tab!"
@@ -9,12 +11,13 @@
       "128": "myicon.png",
       "48": "myicon48.png"
    },
-   "name": "Unclose Tab",
-   "options_page": "option.html",
+   "options_ui": {
+    "chrome_style": true,
+    "page": "option.html"
+    },
    "permissions": [ "tabs" ],
-   "version": "0.1.4.1",
+   "version": "0.2.0.0",
    "author": "SunTY",
-   "description": "替换字体的中文部分为雅黑",
    "manifest_version": 2,
-   "name": "Unclose Tab",
+   "name": "Unclose Tab"
 }
